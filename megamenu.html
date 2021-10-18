@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="./less/style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mobile Responsive</title>
+    <style>
+        ul,
+        li {
+            list-style: none;
+        }
+        
+        ul>li {
+            position: relative;
+        }
+        
+        ul>li,
+        ul li>ul li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        
+        ul li ul {
+            display: none;
+        }
+        
+        ul li ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+        
+        ul li:hover ul {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://www.bay20.com/">brands</a>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Indrustry</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Services</a>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Indrustry</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Clients</a>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Indrustry</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Indrustry</a>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Indrustry</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About</a>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Indrustry</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
